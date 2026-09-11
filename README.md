@@ -1,3 +1,5 @@
+
+
 # Smart Campus Management System
 
 ## Overview
@@ -11,6 +13,7 @@ The project follows a modular structure using Java classes and packages to make 
 ## Features
 
 ### 1. Student Management
+
 - Add new students
 - View all students
 - Search students using Student ID
@@ -18,6 +21,7 @@ The project follows a modular structure using Java classes and packages to make 
 - Prevent duplicate Student IDs
 
 ### 2. Attendance Management
+
 - Record student attendance
 - Calculate attendance percentage
 - View attendance records for a student
@@ -25,6 +29,7 @@ The project follows a modular structure using Java classes and packages to make 
 - Display a warning when attendance is below 75%
 
 ### 3. Event Management
+
 - Create campus events
 - View available events
 - Register students for events
@@ -32,6 +37,7 @@ The project follows a modular structure using Java classes and packages to make 
 - Prevent registration when an event is full
 
 ### 4. Complaint Management
+
 - Submit complaints
 - View submitted complaints
 - Update complaint status
@@ -41,6 +47,7 @@ The project follows a modular structure using Java classes and packages to make 
   - RESOLVED
 
 ### 5. Admin Dashboard
+
 - Display total number of students
 - Display total attendance records
 - Display total events
@@ -49,6 +56,7 @@ The project follows a modular structure using Java classes and packages to make 
 - Display system status
 
 ### 6. Input Validation and Error Handling
+
 - Handles invalid numeric input
 - Prevents duplicate student and event IDs
 - Validates attendance values
@@ -68,6 +76,7 @@ The project follows a modular structure using Java classes and packages to make 
 
 ## Project Structure
 
+```text
 SmartCampusManagementSystem
 │
 ├── src
@@ -91,3 +100,79 @@ SmartCampusManagementSystem
 │
 ├── .gitignore
 └── README.md
+Requirements
+
+Requirements to run this project :-
+
+Java Development Kit (JDK)
+Visual Studio Code or any Java-compatible IDE
+Git (optional, for version control)
+How to Run this project ?
+1. Open the Project
+
+Open the SmartCampusManagementSystem folder in Visual Studio Code.
+
+2. Compile the Project
+
+Open the terminal in the project folder and run:
+
+javac -d out src\Main.java src\model\*.java src\service\*.java src\exception\*.java
+
+3. Run the Application
+java -cp out Main
+
+The Smart Campus Management System main menu will appear in the terminal.
+
+Testing :-
+
+The major modules of the application were tested through console-based validation.
+
+The following functionalities were tested:
+
+Student addition and viewing
+Student search
+Student deletion
+Attendance recording
+Attendance percentage calculation
+Attendance validation
+Event creation
+Student event registration
+Complaint submission
+Complaint status updates
+Admin dashboard
+Invalid input handling
+
+Example Attendance Test
+Student ID       : 101
+Subject          : Programming in Java
+Classes Held     : 40
+Classes Attended : 32
+Attendance       : 80.00%
+Status           : Satisfactory
+
+The application successfully calculated the attendance percentage and displayed the appropriate status.
+
+Error Handling :-
+
+The application handles several invalid situations, including:
+
+Invalid integer or decimal input
+Duplicate Student IDs
+Duplicate Event IDs
+Invalid attendance values
+Invalid event capacity
+Non-existent students
+Non-existent events
+Non-existent complaints
+Invalid complaint status selection
+
+Future Enhancements :-
+
+The system can be further enhanced by:
+
+Adding a graphical user interface
+Adding database connectivity
+Adding user authentication and login
+Adding faculty and administrator accounts
+Providing persistent data storage
+Developing a web or mobile-based version
