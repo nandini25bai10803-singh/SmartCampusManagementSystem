@@ -107,6 +107,7 @@ Requirements to run this project :-
 Java Development Kit (JDK)
 Visual Studio Code or any Java-compatible IDE
 Git (optional, for version control)
+
 How to Run this project ?
 1. Open the Project
 
@@ -129,18 +130,18 @@ The major modules of the application were tested through console-based validatio
 
 The following functionalities were tested:
 
-Student addition and viewing
-Student search
-Student deletion
-Attendance recording
-Attendance percentage calculation
-Attendance validation
-Event creation
-Student event registration
-Complaint submission
-Complaint status updates
-Admin dashboard
-Invalid input handling
+-Student addition and viewing
+-Student search
+-Student deletion
+-Attendance recording
+-Attendance percentage calculation
+-Attendance validation
+-Event creation
+-Student event registration
+-Complaint submission
+-Complaint status updates
+-Admin dashboard
+-Invalid input handling
 
 Example Attendance Test
 Student ID       : 101
