@@ -125,7 +125,7 @@ java -cp out Main
 
 The Smart Campus Management System main menu will appear in the terminal.
 
-Testing :-
+## Testing :-
 
 The major modules of the application were tested through console-based validation.
 
@@ -154,7 +154,7 @@ Status           : Satisfactory
 
 The application successfully calculated the attendance percentage and displayed the appropriate status.
 
-Error Handling :-
+## Error Handling :-
 
 The application handles several invalid situations, including:
 
@@ -168,7 +168,7 @@ Non-existent events
 Non-existent complaints
 Invalid complaint status selection
 
-Future Enhancements :-
+## Future Enhancements :-
 
 The system can be further enhanced by:
 
