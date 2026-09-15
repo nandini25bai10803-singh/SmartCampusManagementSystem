@@ -100,7 +100,7 @@ SmartCampusManagementSystem
 │
 ├── .gitignore
 └── README.md
-
+'''
 ## Requirements
 
 Requirements to run this project :-
