@@ -76,7 +76,7 @@ The project follows a modular structure using Java classes and packages to make 
 
 ## Project Structure
 
-text
+'''text
 SmartCampusManagementSystem
 │
 ├── src
@@ -100,7 +100,8 @@ SmartCampusManagementSystem
 │
 ├── .gitignore
 └── README.md
-Requirements
+
+## Requirements
 
 Requirements to run this project :-
 
